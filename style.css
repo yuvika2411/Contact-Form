@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(148, 38%, 91%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    margin-top: auto;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+
+.submit-button, .reset-button {
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor:pointer;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition:  hsl(147, 85%, 8%) 0.1s;
+}
+
+.submit-button:hover {
+    background-color: hsl(169, 66%, 40%);
+}
+
+.reset-buttonhover {
+    background-color: hsl(169, 66%, 40%);
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Stack content vertically */
+        padding: 10px; /* Add padding for better spacing */
+        height: auto; /* Allow content to adapt to screen size */
+    }
+
+    .container {
+        padding: 15px; /* Reduce padding for smaller screens */
+        max-width: 100%; /* Full width for mobile */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    }
+
+    h2 {
+        font-size: 1.4rem; /* Adjust font size for heading */
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    label {
+        font-size: 1rem; /* Smaller but readable labels */
+    }
+
+    input, textarea {
+        font-size: 1rem; /* Adjust input and textarea font size */
+        padding: 12px; /* Optimize padding for touchscreens */
+    }
+
+    .submit-button, .reset-button {
+        font-size: 1rem; /* Adjust button font size */
+        padding: 12px; /* Reduce padding for buttons */
+        margin: 8px 0; /* Add vertical spacing between buttons */
+    }
+
+    textarea {
+        height: 100px; /* Optimize height for usability on smaller screens */
+    }
+}
+
+/* Fine-tune for very small screens (e.g., phones under 400px width) */
+@media (max-width: 400px) {
+    h2 {
+        font-size: 1.2rem; /* Further reduce heading size */
+    }
+
+    input, textarea {
+        font-size: 0.9rem; /* Smaller font for limited space */
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .submit-button, .reset-button {
+        font-size: 0.9rem; /* Scale down button size */
+        padding: 10px; /* Adjust padding for buttons */
+    }
+}
