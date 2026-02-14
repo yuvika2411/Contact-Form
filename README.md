@@ -1,26 +1,17 @@
-📬 Contact Form
-A modern, responsive Contact Form built using HTML, CSS, and JavaScript to collect user messages from a website.
+# Contact Form
 
-📖 About The Project
+Contact Form is a simple and elegant static web project built using HTML, CSS, and JavaScript. It allows users to submit their messages through a clean and responsive interface with basic client-side validation.
 
-This project is a simple front-end contact form that demonstrates:
+# 📌 Features
 
-Responsive UI design
-Client-side validation
-Clean layout structure
-Basic user interaction handling
+• Fully responsive design
+• Clean and minimal UI layout
+• JavaScript form validation
+• Thank you page after submission
+• Easy to customize and integrate
 
-It is beginner-friendly and easy to integrate into any portfolio or website.
+# 🛠 Built With
 
-✨ Features
-
-✔️ Fully Responsive Design
-✔️ Form Validation (JavaScript)
-✔️ Clean & Minimal UI
-✔️ Thank You Page After Submission
-✔️ Easy to Customize
-
-🛠️ Built With
-HTML5 – Structure
-CSS3 – Styling & Layout
-JavaScript – Validation & Form Handling
+• HTML5
+• CSS3
+• JavaScript
